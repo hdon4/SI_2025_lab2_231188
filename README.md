@@ -14,13 +14,11 @@ M = 9 <br>
 
 1. Item(null), cardNumber = Anything <br>
 1 > 2 > Exit <br>
-2. Item(null), cardNumber = "0123456789012345" <br>
-1 > 3 > 4.1 > 4.2 > 5 > 6 > 7 <br>
-3. Item("name", 1, 20, 0.2), cardNumber = "0123456789012345" <br> 
+2. Item("name", 1, 20, 0.2), cardNumber = "0123456789012345" <br> 
 1 > 3 > 4 > 5 > 6 > 8 > 9 > 10 > 12 > 13 > 14 > 15 > 16 > 17 > 18 > 19 > 23 <br>
-4. Item("name", 1, 20, 0), cardNumber = "0123456789012345" <br>
+3. Item("name", 1, 20, 0), cardNumber = "0123456789012345" <br>
 1 > 3 > 4 > 5 > 6 > 8 > 10 > 11 > 14 > 15 > 16 > 17 > 23 <br>
-5. Item("name", 1, 20, 0), cardNumber = "012" <br>
+4. Item("name", 1, 20, 0), cardNumber = "012" <br>
 1 > 3 > 4 > 5 > 6 > 8 > 10 > 11 > 14 > 21 > 22 <br>
-6. Item("name", 1, 20, 0), cardNumber = "0123456ABC012345" <br>
+5. Item("name", 1, 20, 0), cardNumber = "0123456ABC012345" <br>
 1 > 3 > 4 > 5 > 6 > 8 > 9 > 10 > 12 > 13 > 14 > 15 > 16 > 17 > 18 > 19 > 20 <br>
